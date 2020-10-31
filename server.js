@@ -47,11 +47,15 @@ async function start() {
         await start();
         break;
       case "Add Role":
-        // addRole(connection);
+        await helpers.addRole(connection);
+        await start();
         break;
+        
       case "Add Dept":
-        // addDept(connection);
+        await helpers.addDept(connection);
+        await start();
         break;
+
       default:
         break;
     }
