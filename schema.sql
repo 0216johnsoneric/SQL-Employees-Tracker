@@ -1,4 +1,5 @@
 /*mysql -u root -p < schema.sql*/ 
+
 DROP DATABASE IF EXISTS employee_tracker_DB;
 
 CREATE DATABASE employee_tracker_DB;
